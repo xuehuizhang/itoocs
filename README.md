@@ -1,4 +1,6 @@
 # itoocs
 ### 类库项目
     1, go协程池 workerPool
-       
+       tag: 
+            workerPool 在jobsChan读取到任务后用于分配工人，也就是把任务分配协程去处理
+            worker用于真正的去处理业务，处理结果放到resultChan中
