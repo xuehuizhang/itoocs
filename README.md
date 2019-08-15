@@ -8,4 +8,4 @@
             worker用于真正的去处理业务，处理结果放到resultChan中
             
 ### GO并发系列
-    1，Go并发之管道与Go程
+    1，Go并发管道与Go程
